@@ -3,17 +3,15 @@
   "name": "cross-border-erp",
   "buildCommand": "npm run build",
   "outputDirectory": "dist",
-  "routes": [
+  "framework": "vite",
+  "rewrites": [
     {
-      "src": "/api/(.*)",
-      "dest": "https://your-api-domain.com/api/$1"
+      "source": "/api/(.*)",
+      "destination": "https://nicole-southeast-conservation-automotive.trycloudflare.com/api/$1"
     },
     {
-      "handle": "filesystem"
-    },
-    {
-      "src": "/(.*)",
-      "dest": "/index.html"
+      "source": "/(.*)",
+      "destination": "/index.html"
     }
   ],
   "headers": [
