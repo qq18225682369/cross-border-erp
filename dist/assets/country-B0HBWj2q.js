@@ -1,0 +1,1 @@
+import{r}from"./request-CKkbyz11.js";function n(){return r({url:"/countries",method:"get"})}function o(t){return r({url:"/countries",method:"post",data:t})}function s(t,e){return r({url:`/countries/${t}`,method:"put",data:e})}function d(t){return r({url:`/countries/${t}`,method:"delete"})}export{o as a,d,n as g,s as u};
