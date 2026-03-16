@@ -1,1 +1,0 @@
-import{r as n}from"./request-CKkbyz11.js";function a(){return n({url:"/channels",method:"get"})}function u(e){return n({url:"/channels",method:"post",data:e})}function l(e,t){return n({url:`/channels/${e}`,method:"put",data:t})}function h(e){return n({url:`/channels/${e}`,method:"delete"})}export{u as a,h as d,a as g,l as u};
